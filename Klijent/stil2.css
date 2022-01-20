@@ -1,0 +1,144 @@
+label{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: small;
+    color:rgba(7, 105, 59, 0.966);
+}
+.nazivForme{
+    font-weight: 900;
+    background-color: rgb(228, 154, 18);;
+}
+
+.GlavniKontejner{
+    display: flex;
+    flex-wrap: wrap;
+     flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: rgba(101, 189, 152, 0.548);
+    
+}
+.kontKorisnik2{
+    order: -2;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 5px;
+    background-color: rgba(57, 163, 89, 0.685);  
+    border: 10px outset rgb(78, 161, 110); 
+}
+
+.kontForma{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 5px;
+    background-color: rgba(57, 163, 89, 0.685);  
+    border: 10px outset rgb(78, 161, 110); 
+    
+    
+}
+.rafForme{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.kontKorisnik{
+    order:-3;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-right: 5px;
+    background-color: rgba(57, 163, 89, 0.685);  
+    border: 10px outset rgb(78, 161, 110); 
+}
+.kontPrikaz{
+    order:-1;
+    display:flex;
+    flex-direction: row;
+  
+}
+table,tr,th, td{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightyellow;
+    background-color: rgba(24, 209, 123, 0.596); 
+   
+}
+table{
+   
+    border-collapse: collapse;
+    
+}
+
+button{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.btnDodaj,.btnIzmeni{
+    margin-right: 5px;
+    flex: 1 1 auto;
+}
+.btnObrisi{
+    flex: 1 1 auto;
+}
+
+.red1Button,.redButton
+{
+    display: flex;
+    margin-bottom: auto;
+    font-weight: bolder;
+    flex-direction: column;
+    background-color: rgb(225, 235, 225);
+}
+.redButton{
+    display: flex;
+    margin-bottom: auto;
+    flex-direction: row;
+}
+.l2{
+    
+    background-color:  rgb(228, 154, 18);
+}
+.l3{
+    background-color:  rgb(228, 112, 18);
+}
+.divRadio{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    border-bottom: solid rgb(52, 134, 52) 5px;
+    background-color: rgb(225, 235, 225);
+}
+.lblRadio{
+    
+    margin-left: 30px;
+    font-size: small;
+    
+
+}
+.redPrikaz{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.btnFilmovi{
+    margin-right: 5px;
+    flex: 1 1 auto;
+}
+
+.btnIznajmljivanja{
+    flex: 1 1 auto;
+}
+.btnKlijenti{
+    flex: 1 1 auto;
+}
